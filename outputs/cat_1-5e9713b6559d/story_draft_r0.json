@@ -1,0 +1,53 @@
+{
+  "title": "Milo and Pip at the Tall Oak",
+  "pages": [
+    {
+      "page": 1,
+      "section": "beginning",
+      "area_id": "flower_path",
+      "text": "Milo, a white cat with a blue neckerchief, played at the Flower Path. His friend Pip, a brown hare with a green wrist ribbon, ran beside him in the Sunny Garden."
+    },
+    {
+      "page": 2,
+      "section": "beginning",
+      "area_id": "flower_path",
+      "text": "They loved to play with their colorful garden toy together. The sun was warm, and the stepping stones were bright."
+    },
+    {
+      "page": 3,
+      "section": "problem",
+      "area_id": "flower_path",
+      "text": "Suddenly, a gust of wind blew their toy away. Milo looked up and saw the toy was stuck on a high branch near the Tall Oak, far out of reach."
+    },
+    {
+      "page": 4,
+      "section": "problem",
+      "area_id": "pond_bridge",
+      "text": "Milo notices a trail of dropped flower petals leading from the Flower Path toward the Pond Bridge. Pip hops ahead to inspect the Pond Bridge and sees the path continues straight to the Tall Oak."
+    },
+    {
+      "page": 5,
+      "section": "solution",
+      "area_id": "tall_oak",
+      "text": "At the Tall Oak, Milo studied the tree. Milo shouts 'Small paws, big plans!' before drawing the stepping path in the dirt. He carefully planned a safe route up the low branches."
+    },
+    {
+      "page": 6,
+      "section": "solution",
+      "area_id": "tall_oak",
+      "text": "Pip cheers 'Leap, look, and go!' before safely hopping across the final gap to grab the toy. Pip used his quick, accurate hops to reach the toy safely."
+    },
+    {
+      "page": 7,
+      "section": "happy_ending",
+      "area_id": "tall_oak",
+      "text": "Pip hopped down carefully with the toy. Milo smiled and clapped his paws. They had their favorite toy back again!"
+    },
+    {
+      "page": 8,
+      "section": "happy_ending",
+      "area_id": "flower_path",
+      "text": "Milo and Pip walked back to the grassy path together. The white cat and the brown hare happily celebrated with a fun game."
+    }
+  ]
+}

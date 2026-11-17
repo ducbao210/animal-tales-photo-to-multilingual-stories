@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Windows
+.venv_windows/
+venv_windows/
+venv_win/
+
+# Ubuntu / WSL
+.venv_ubuntu/
+venv_ubuntu/
+venv_linux/
+
+# Conda
+.conda/
+conda-env/
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+credentials.json
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Kagglehub cache
+.kagglehub_cache/
+
+
+# Temporary Files
+tempCodeRunnerFile.py
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+
+# Local notes and PDFs
+note.md
+*.pdf
+logs/
+
+# Generated datasets and local video recordings
+*.mp4
+/data/*
+!/data/story_world.yaml
+!/data/animal_colors.csv

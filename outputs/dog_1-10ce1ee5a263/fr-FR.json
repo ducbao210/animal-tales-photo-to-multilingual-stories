@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "image_id": "dog_1-10ce1ee5a263",
+  "source_story_sha256": "7262aed76f22549239dd296d5b3107103430984f95e3d1db8d79dedf77f2b046",
+  "target_age": "5-7",
+  "translation_fingerprint": "580d4deaea5f704b7b6bf01774078b765375dc939e44201617898808dca62adf",
+  "locale": "fr-FR",
+  "pages": [
+    {
+      "page": 1,
+      "text": "Luna, une chienne noire, était assise dans la Prairie du pique-nique. Son collier rouge tenait une plaque en laiton. Pip, un lapin brun, a attaché un ruban vert à son poignet. Ils étaient prêts pour un pique-nique amusant."
+    },
+    {
+      "page": 2,
+      "text": "Pip a étalé sa couverture de pique-nique préférée sur l'herbe douce. Luna a posé les collations savoureuses. Ils ont souri et se sont assis ensemble au soleil chaud."
+    },
+    {
+      "page": 3,
+      "text": "Whoosh ! Un fort coup de vent a soulevé la couverture dans les airs. Luna et Pip ont vu le vent pousser la couverture vers le Sentier des fleurs. Ils ont couru après elle rapidement."
+    },
+    {
+      "page": 4,
+      "text": "Le vent a emporté la couverture au-delà du Sentier des fleurs et juste au-dessus du Pont de l'étang. Luna et Pip ont traversé le pont en bois, mais la couverture volait de plus en plus haut."
+    },
+    {
+      "page": 5,
+      "text": "La couverture s’est coincée dans les hautes branches du Grand Chêne. Luna a dit : « Ensemble, on trouve une solution ! » Elle a demandé à Pip de grimper pendant qu’elle attendait en bas pour l’attraper."
+    },
+    {
+      "page": 6,
+      "text": "Pip a crié : « Je bondis, j'observe et j'y vais ! » Il a fait de rapides bonds précis entre les espaces sûrs des petites branches. Il a atteint la couverture et l’a poussée doucement vers le bas."
+    },
+    {
+      "page": 7,
+      "text": "Luna a attrapé la couverture qui tombait avec ses pattes. Pip a sauté du haut de l’arbre. Ils ont tous les deux applaudi car leur couverture douce était de nouveau en sécurité."
+    },
+    {
+      "page": 8,
+      "text": "Luna et Pip sont retournés à la Prairie du pique-nique. Ils ont de nouveau étalé la couverture sur l'herbe verte. La chienne noire et le lapin brun ont joyeusement dégusté leur pique-nique savoureux."
+    }
+  ],
+  "validation": {
+    "passed": true,
+    "issues": [],
+    "rounds": 0
+  }
+}

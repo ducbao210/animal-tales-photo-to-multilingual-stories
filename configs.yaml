@@ -1,0 +1,118 @@
+part_a:
+  taxonomy:
+    species: [cat, owl, hare, dog, squirrel]
+    unknown_species: unknown
+    colors: [black, white, brown, orange, gray]
+    species_aliases:
+      cat: [cat, domestic cat, felis catus]
+      dog: [dog, domestic dog, canis familiaris, canis lupus familiaris]
+      hare: [hare, leporidae, lepus europaeus, lepus timidus, lepus americanus, lepus californicus]
+      owl: [owl, owls, strigiformes, strigidae, tytonidae, barn owl, snowy owl, great horned owl, tawny owl, screech owl, eagle owl, barred owl, burrowing owl]
+      squirrel: [squirrel, sciuridae, sciurus vulgaris, sciurus carolinensis, sciurus niger]
+  paths:
+    input_dir: data/raw
+    labels_csv: data/animal_colors.csv
+    output_dir: data/processed/stage_1
+    results_dir: data/processed/stage_1/results
+    foreground_dir: data/processed/stage_1/foreground
+    log_file: logs/part_a.jsonl
+  retries:
+    max_attempts: 2
+    retry_delay_seconds: 1
+  concurrency:
+    max_workers: 3
+  evaluation:
+    workers: 1
+    report_path: data/processed/stage_1/evaluation_report.json
+    log_file: logs/evaluation.jsonl
+  device: auto
+  image_extensions: [.jpg, .jpeg, .png]
+  speciesnet:
+    model_id: kaggle:google/speciesnet/pyTorch/v4.0.3a/1
+    command: [python, -m, speciesnet.scripts.run_model]
+    timeout_seconds: 1800
+  birefnet:
+    model_id: ZhengPeng7/BiRefNet
+    trust_remote_code: true
+    image_size: 1024
+    foreground_mask_threshold: 0.5
+    minimum_foreground_fraction: 0.01
+    maximum_foreground_fraction: 0.99
+  clip:
+    model_id: ViT-B/32
+    prompts:
+      black: "a photo of an animal whose main coat or fur color is black"
+      white: "a photo of an animal whose main coat or fur color is white"
+      orange: "a photo of an animal whose main coat or fur color is orange or ginger"
+      gray: "a photo of an animal whose main coat or fur color is gray"
+      brown: "a photo of an animal whose main coat or fur color is brown"
+    uncertain_top_two_margin: 0.05
+
+dataset:
+  source: iamsouravbanerjee/animal-image-dataset-90-different-animals
+  cache_dir: scripts/.kagglehub_cache
+  unknown_source_classes: [koala, bear, boar, cow, crow, kangaroo]
+  remove_images:
+    cat: [3, 8, 30, 32, 34, 48, 50, 58, 59]
+    dog: [6, 19, 25, 26, 48, 33]
+    squirrel: [14, 18, 23, 34, 45, 55]
+    hare: [22, 24, 38, 60]
+    owl: [4, 8, 21, 27, 29, 38, 41, 49]
+    unknown: [koala_15]
+
+part_b:
+  backend: replicate
+  model_id: google/imagen-4
+  prompt_path: src/prompts/part_b/character.md
+  aspect_ratio: "1:1"
+  image_size: 1K
+  output_format: jpg
+  safety_filter_level: block_medium_and_above
+  default_pose: "standing upright in a relaxed, welcoming pose, facing the viewer"
+  timeout_seconds: 120
+  max_image_bytes: 20000000
+  max_dimension: 4096
+  max_attempts: 3
+  backoff_seconds: 1
+
+part_c:
+  model_id: gemini-3.6-flash
+  temperature: 0.4
+  max_output_tokens: 1500
+  review_max_output_tokens: 1500
+  timeout_seconds: 60
+  correction_rounds: 2
+  prompt_outline: src/prompts/part_c/story_outline.md
+  prompt_write: src/prompts/part_c/story_write.md
+  prompt_review: src/prompts/part_c/story_review.md
+  prompt_refine: src/prompts/part_c/story_refine.md
+  prompt_page_illustration: src/prompts/part_c/page_illustration.md
+  prompt_phase_plan: src/prompts/features/context_images/phase_plan.md
+  prompt_context: src/prompts/features/context_images/context_image.md
+  age: 5-7
+
+part_d:
+  model_id: openai/gpt-oss-120b
+  reasoning_effort: low
+  groq_rate_limits:
+    requests_per_minute: 30
+    tokens_per_minute: 8000
+  locales: [fr-FR, es-ES, vi-VN]
+  temperature: 0.2
+  max_completion_tokens: 1500
+  review_max_completion_tokens: 800
+  timeout_seconds: 60
+  correction_rounds: 2
+  prompt_translate: src/prompts/part_d/translation.md
+  prompt_review: src/prompts/part_d/translation_review.md
+  prompt_refine: src/prompts/part_d/translation_refine.md
+  prompt_back_translation: src/prompts/part_d/back_translation.md
+
+part_e:
+  output_dir: outputs
+  log_dir: logs
+  max_attempts: 3
+  backoff_seconds: 1
+  process_sequentially: true
+  resume: true
+  world_path: data/story_world.yaml

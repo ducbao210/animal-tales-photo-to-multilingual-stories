@@ -1,0 +1,9 @@
+{
+  "stage": "B",
+  "category": "credentials",
+  "message": "ReplicateError: ReplicateError Details:\ntitle: Unauthenticated\nstatus: 401\ndetail: You did not pass a valid authentication token",
+  "retryable": false,
+  "timestamp": "2026-10-25T11:29:24.566610+00:00",
+  "attempt": 1,
+  "image_id": "dog_1-10ce1ee5a263"
+}

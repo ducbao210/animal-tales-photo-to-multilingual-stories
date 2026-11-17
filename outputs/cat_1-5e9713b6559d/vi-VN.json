@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "image_id": "cat_1-5e9713b6559d",
+  "source_story_sha256": "c484818705968b7d821f4b46e7d5cd01e55fcbcc64d1b66ff4b35dae29238c2a",
+  "target_age": "5-7",
+  "translation_fingerprint": "bc7525dc280263da483b7136d95b6dd61d451572f55016443eb107903065a29b",
+  "locale": "vi-VN",
+  "pages": [
+    {
+      "page": 1,
+      "text": "Milo, một chú mèo trắng đeo khăn cổ xanh, đang chơi ở Lối Hoa. Bạn ấy Pip, một chú thỏ nâu đeo ruy băng xanh trên cổ tay, chạy bên cạnh Milo trong Vườn Nắng."
+    },
+    {
+      "page": 2,
+      "text": "Hai bạn thích chơi cùng đồ chơi vườn đầy màu sắc. Mặt trời ấm áp, và những tảng đá bước chân sáng bóng."
+    },
+    {
+      "page": 3,
+      "text": "Bỗng một cơn gió thổi đồ chơi của chúng bay đi. Milo ngước lên và thấy đồ chơi mắc trên cành cao gần Cây Sồi Cao, quá xa không chạm tới."
+    },
+    {
+      "page": 4,
+      "text": "Milo thấy một vệt cánh hoa rơi rải từ Lối Hoa về phía Cầu Ao. Pip nhảy lên phía trước để kiểm tra Cầu Ao và thấy con đường tiếp tục thẳng tới Cây Sồi Cao."
+    },
+    {
+      "page": 5,
+      "text": "Ở Cây Sồi Cao, Milo quan sát cây. Milo hô “Chân nhỏ, ý chí lớn!” rồi vẽ đường bước trên đất. Bạn ấy cẩn thận lên kế hoạch đường lên các cành thấp một cách an toàn."
+    },
+    {
+      "page": 6,
+      "text": "Pip reo “Nhảy lên, nhìn kỹ, tiến bước!” rồi nhảy an toàn qua khoảng trống cuối cùng để lấy đồ chơi. Pip dùng những cú nhảy nhanh, chính xác để lấy đồ chơi một cách an toàn."
+    },
+    {
+      "page": 7,
+      "text": "Pip nhảy xuống cẩn thận mang đồ chơi. Milo mỉm cười và vỗ tay. Hai bạn lại có lại đồ chơi yêu thích!"
+    },
+    {
+      "page": 8,
+      "text": "Milo và Pip cùng nhau đi về lại Lối Hoa. Chú mèo trắng và chú thỏ nâu vui vẻ ăn mừng bằng một trò chơi thú vị."
+    }
+  ],
+  "validation": {
+    "passed": true,
+    "issues": [],
+    "rounds": 0
+  }
+}

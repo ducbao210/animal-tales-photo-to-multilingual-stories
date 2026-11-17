@@ -1,0 +1,11 @@
+{
+  "image_id": "dog_1-10ce1ee5a263",
+  "input_path": "inference_data/dog_1.jpg",
+  "species": "dog",
+  "color": "black",
+  "status": "partial",
+  "species_uncertain": false,
+  "color_uncertain": true,
+  "errors": [],
+  "schema_version": "1.0"
+}

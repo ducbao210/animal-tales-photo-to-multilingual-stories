@@ -1,0 +1,9 @@
+{
+  "stage": "B",
+  "category": "unsupported_species",
+  "message": "No character profile for Part A species 'unknown'",
+  "retryable": false,
+  "timestamp": "2026-10-25T12:29:30.371274+00:00",
+  "attempt": 1,
+  "image_id": "bear_1-6c5bc1aee464"
+}

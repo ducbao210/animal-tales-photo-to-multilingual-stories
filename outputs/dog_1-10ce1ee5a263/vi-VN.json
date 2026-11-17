@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "image_id": "dog_1-10ce1ee5a263",
+  "source_story_sha256": "7262aed76f22549239dd296d5b3107103430984f95e3d1db8d79dedf77f2b046",
+  "target_age": "5-7",
+  "translation_fingerprint": "580d4deaea5f704b7b6bf01774078b765375dc939e44201617898808dca62adf",
+  "locale": "vi-VN",
+  "pages": [
+    {
+      "page": 1,
+      "text": "Luna, một chú chó đen, ngồi trên Đồng Cỏ Dã Ngoại. Chiếc vòng cổ đỏ của cô có một thẻ đồng. Pip, một chú thỏ nâu, buộc một dải ruy băng xanh vào cổ tay. Hai bạn sẵn sàng cho buổi dã ngoại vui vẻ."
+    },
+    {
+      "page": 2,
+      "text": "Pip trải chăn dã ngoại yêu thích lên cỏ mềm. Luna đặt những món ăn ngon xuống. Hai bạn cười và ngồi cùng nhau dưới ánh nắng ấm."
+    },
+    {
+      "page": 3,
+      "text": "Ối! Một luồng gió mạnh thổi chăn lên cao. Luna và Pip thấy gió đưa chăn về phía Lối Hoa. Hai bạn chạy nhanh theo nó."
+    },
+    {
+      "page": 4,
+      "text": "Gió thổi chăn qua Lối Hoa và bay lên trên Cầu Ao. Luna và Pip chạy qua cầu gỗ, nhưng chăn cứ bay lên cao hơn."
+    },
+    {
+      "page": 5,
+      "text": "Chăn mắc vào cành cao của Cây Sồi Cao. Luna nói: “Cùng nhau, ta sẽ tìm ra cách!” Cô bảo Pip trèo lên trong khi cô chờ ở dưới để bắt nó."
+    },
+    {
+      "page": 6,
+      "text": "Pip hét: “Nhảy lên, nhìn kỹ, tiến bước!” Pip dùng những bước nhảy nhanh, chính xác qua các khoảng trống an toàn giữa các cành thấp. Anh ấy tới được chăn và đẩy nó xuống một cách an toàn."
+    },
+    {
+      "page": 7,
+      "text": "Luna bắt chăn rơi bằng những chiếc chân. Pip nhảy xuống cây. Hai bạn reo vui vì chiếc chăn mềm của họ lại an toàn."
+    },
+    {
+      "page": 8,
+      "text": "Luna và Pip quay lại Đồng Cỏ Dã Ngoại. Hai bạn lại trải chăn lên cỏ xanh. Chú chó đen và chú thỏ nâu vui vẻ ăn những món ăn ngon."
+    }
+  ],
+  "validation": {
+    "passed": true,
+    "issues": [],
+    "rounds": 0
+  }
+}

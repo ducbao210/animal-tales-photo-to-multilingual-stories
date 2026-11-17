@@ -1,0 +1,14 @@
+{
+  "cache_fingerprint": "cfce0268bf492d40a3f473b0911eea2e59f9401b5d0490b1f85affb930fb4818",
+  "model": "google/imagen-4",
+  "backend": "replicate",
+  "parameters": {
+    "aspect_ratio": "1:1",
+    "image_size": "1K",
+    "seed": null,
+    "seed_supported": false
+  },
+  "request_id": null,
+  "width": 1024,
+  "height": 1024
+}

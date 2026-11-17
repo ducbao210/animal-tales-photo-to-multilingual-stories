@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0",
+  "image_id": "bear_1-6c5bc1aee464",
+  "input_sha256": "96d117a78b24baf4af88f213f28cfbca9b952df585d8508989e1b88cfb8511c0",
+  "stage": {
+    "A": {
+      "status": "complete",
+      "fingerprint": "ada0bed52babf17d7be0ff58ea9df415695c85aa41b6177e2d30d1f2574c4f06",
+      "artifact_paths": [
+        "scan.json"
+      ],
+      "completed_at": "2026-10-25T11:29:02.163717+00:00"
+    },
+    "B": {
+      "status": "failed",
+      "error": {
+        "stage": "B",
+        "category": "unsupported_species",
+        "message": "No character profile for Part A species 'unknown'",
+        "retryable": false,
+        "timestamp": "2026-10-25T12:29:30.371274+00:00",
+        "attempt": 1,
+        "image_id": "bear_1-6c5bc1aee464"
+      }
+    }
+  },
+  "errors": [
+    {
+      "stage": "B",
+      "category": "unsupported_species",
+      "message": "No character profile for Part A species 'unknown'",
+      "retryable": false,
+      "timestamp": "2026-10-25T11:29:02.170693+00:00",
+      "attempt": 1,
+      "image_id": "bear_1-6c5bc1aee464"
+    },
+    {
+      "stage": "B",
+      "category": "unsupported_species",
+      "message": "No character profile for Part A species 'unknown'",
+      "retryable": false,
+      "timestamp": "2026-10-25T11:37:10.361554+00:00",
+      "attempt": 1,
+      "image_id": "bear_1-6c5bc1aee464"
+    },
+    {
+      "stage": "B",
+      "category": "unsupported_species",
+      "message": "No character profile for Part A species 'unknown'",
+      "retryable": false,
+      "timestamp": "2026-10-25T11:57:54.186193+00:00",
+      "attempt": 1,
+      "image_id": "bear_1-6c5bc1aee464"
+    },
+    {
+      "stage": "B",
+      "category": "unsupported_species",
+      "message": "No character profile for Part A species 'unknown'",
+      "retryable": false,
+      "timestamp": "2026-10-25T12:27:54.437329+00:00",
+      "attempt": 1,
+      "image_id": "bear_1-6c5bc1aee464"
+    },
+    {
+      "stage": "B",
+      "category": "unsupported_species",
+      "message": "No character profile for Part A species 'unknown'",
+      "retryable": false,
+      "timestamp": "2026-10-25T12:29:30.371274+00:00",
+      "attempt": 1,
+      "image_id": "bear_1-6c5bc1aee464"
+    }
+  ]
+}

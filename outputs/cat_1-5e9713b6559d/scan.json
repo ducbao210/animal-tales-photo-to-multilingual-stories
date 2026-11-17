@@ -1,0 +1,11 @@
+{
+  "image_id": "cat_1-5e9713b6559d",
+  "input_path": "inference_data/cat_1.jpg",
+  "species": "cat",
+  "color": "white",
+  "status": "complete",
+  "species_uncertain": false,
+  "color_uncertain": false,
+  "errors": [],
+  "schema_version": "1.0"
+}

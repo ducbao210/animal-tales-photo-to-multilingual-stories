@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "image_id": "cat_1-5e9713b6559d",
+  "input_sha256": "e2c7b299f750c810312c9552a1630515aec281ce4ea896ded7ad6a7347629d63",
+  "stage": {
+    "A": {
+      "status": "complete",
+      "fingerprint": "3be0b097afb91fa9b7bea0355c98a201f5d9a4556a5a57c9c9c2f6a309907baa",
+      "artifact_paths": [
+        "scan.json"
+      ],
+      "completed_at": "2026-10-25T11:29:11.633017+00:00"
+    },
+    "B": {
+      "status": "complete",
+      "fingerprint": "74215e1b2f5e83c0646664fe22323eb63aa5bfedf9d8a58bb4716ed771c7d669",
+      "artifact_paths": [
+        "character.png",
+        "character.json"
+      ],
+      "completed_at": "2026-10-25T11:37:55.443180+00:00"
+    },
+    "C": {
+      "status": "complete",
+      "fingerprint": "1192af6243ea0169726aa403057aa4c0f12c534a0e9e064b51d615ca6a467de4",
+      "artifact_paths": [
+        "story_en.json",
+        "page_illustration_prompts.json"
+      ],
+      "completed_at": "2026-10-25T11:38:15.468640+00:00"
+    },
+    "D": {
+      "status": "complete",
+      "fingerprint": "bc7525dc280263da483b7136d95b6dd61d451572f55016443eb107903065a29b",
+      "artifact_paths": [
+        "translations.json",
+        "fr-FR.json",
+        "es-ES.json",
+        "vi-VN.json"
+      ],
+      "completed_at": "2026-10-25T11:58:55.504588+00:00"
+    }
+  },
+  "errors": [
+    {
+      "stage": "B",
+      "category": "credentials",
+      "message": "ReplicateError: ReplicateError Details:\ntitle: Unauthenticated\nstatus: 401\ndetail: You did not pass a valid authentication token",
+      "retryable": false,
+      "timestamp": "2026-10-25T11:29:14.046564+00:00",
+      "attempt": 1,
+      "image_id": "cat_1-5e9713b6559d"
+    },
+    {
+      "stage": "D",
+      "category": "partial_translation",
+      "message": "Unfinished translations: vi-VN (invalid_generation)",
+      "retryable": false,
+      "timestamp": "2026-10-25T11:43:18.013696+00:00",
+      "attempt": 1,
+      "image_id": "cat_1-5e9713b6559d"
+    }
+  ]
+}

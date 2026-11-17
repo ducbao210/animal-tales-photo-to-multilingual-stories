@@ -1,0 +1,24 @@
+{
+  "problem": "A lost garden toy is stuck on a high branch near the Tall Oak, out of reach for Milo.",
+  "area_sequence": [
+    "flower_path",
+    "pond_bridge",
+    "tall_oak"
+  ],
+  "move_reasons": [
+    "Milo notices a trail of dropped flower petals leading from the Flower Path toward the Pond Bridge.",
+    "Pip hops ahead to inspect the Pond Bridge and sees the path continues straight to the Tall Oak."
+  ],
+  "main_skill_solution": "Milo notices the pattern of the low branches and plans a safe stepping route up the tree trunk.",
+  "support_skill_solution": "Pip uses his quick, accurate hops to leap across safe gaps between branches to reach the toy.",
+  "slogan_moments": [
+    "Milo shouts 'Small paws, big plans!' before drawing the stepping path in the dirt.",
+    "Pip cheers 'Leap, look, and go!' before safely hopping across the final gap to grab the toy."
+  ],
+  "four_parts": {
+    "beginning": "Milo the white cat and Pip the brown hare play together at the Flower Path in the Sunny Garden.",
+    "problem": "They find that their favorite garden toy has drifted up into the tall branches near the Tall Oak where Milo cannot reach it.",
+    "solution": "Milo plans a safe stepping route by studying the branch patterns, and Pip hops across the safe gaps to retrieve the toy.",
+    "happy_ending": "Milo and Pip safely bring the toy down and celebrate together with a game on the grassy path."
+  }
+}

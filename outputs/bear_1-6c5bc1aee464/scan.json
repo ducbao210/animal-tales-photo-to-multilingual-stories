@@ -1,0 +1,11 @@
+{
+  "image_id": "bear_1-6c5bc1aee464",
+  "input_path": "inference_data/bear_1.jpg",
+  "species": "unknown",
+  "color": "brown",
+  "status": "partial",
+  "species_uncertain": true,
+  "color_uncertain": false,
+  "errors": [],
+  "schema_version": "1.0"
+}

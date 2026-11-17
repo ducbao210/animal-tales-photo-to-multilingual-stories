@@ -1,0 +1,53 @@
+{
+  "title": "The Flying Picnic Blanket",
+  "pages": [
+    {
+      "page": 1,
+      "section": "beginning",
+      "area_id": "picnic_meadow",
+      "text": "Luna, a black dog, sat in Picnic Meadow. Her red collar held a brass tag. Pip, a brown hare, tied a green ribbon on his wrist. They were ready for a fun picnic."
+    },
+    {
+      "page": 2,
+      "section": "beginning",
+      "area_id": "picnic_meadow",
+      "text": "Pip spread out his favourite picnic blanket on the soft grass. Luna set down the tasty snacks. They smiled and sat together in the warm sun."
+    },
+    {
+      "page": 3,
+      "section": "problem",
+      "area_id": "flower_path",
+      "text": "Whoosh! A strong gust of wind lifted the blanket high into the air. Luna and Pip saw the wind blow the blanket toward Flower Path. They ran after it quickly."
+    },
+    {
+      "page": 4,
+      "section": "problem",
+      "area_id": "pond_bridge",
+      "text": "The wind blew the blanket past Flower Path and right over Pond Bridge. Luna and Pip ran across the wooden bridge, but the blanket flew higher and higher."
+    },
+    {
+      "page": 5,
+      "section": "solution",
+      "area_id": "tall_oak",
+      "text": "The blanket stuck in the high branches of Tall Oak. Luna said, \"Together, we find a way!\" She asked Pip to climb while she waited below to catch it."
+    },
+    {
+      "page": 6,
+      "section": "solution",
+      "area_id": "tall_oak",
+      "text": "Pip shouted, \"Leap, look, and go!\" Pip used his quick, accurate hops across safe gaps between the low branches. He reached the blanket and pushed it down safely."
+    },
+    {
+      "page": 7,
+      "section": "happy_ending",
+      "area_id": "tall_oak",
+      "text": "Luna caught the falling blanket with her paws. Pip hopped down from the tree. They both cheered because their soft blanket was safe again."
+    },
+    {
+      "page": 8,
+      "section": "happy_ending",
+      "area_id": "picnic_meadow",
+      "text": "Luna and Pip walked back to Picnic Meadow. They spread the blanket on the green grass again. The black dog and brown hare happily enjoyed their tasty picnic."
+    }
+  ]
+}

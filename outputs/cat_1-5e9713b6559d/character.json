@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "image_id": "cat_1-5e9713b6559d",
+  "species": "cat",
+  "color": "white",
+  "profile_id": "cat",
+  "name": "Milo",
+  "image_path": "character.png",
+  "model": "google/imagen-4",
+  "backend": "replicate",
+  "parameters": {
+    "aspect_ratio": "1:1",
+    "image_size": "1K",
+    "seed": null,
+    "seed_supported": false
+  },
+  "prompt_sha256": "5267d1dcdb378bec120126a7771363db71fa4bfd9549f7901e93d96e6fb498ee",
+  "request_id": null,
+  "width": 1024,
+  "height": 1024,
+  "mime_type": "image/png",
+  "status": "complete"
+}

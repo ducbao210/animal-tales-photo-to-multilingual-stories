@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "image_id": "dog_1-10ce1ee5a263",
+  "species": "dog",
+  "color": "black",
+  "profile_id": "dog",
+  "name": "Luna",
+  "image_path": "character.png",
+  "model": "google/imagen-4",
+  "backend": "replicate",
+  "parameters": {
+    "aspect_ratio": "1:1",
+    "image_size": "1K",
+    "seed": null,
+    "seed_supported": false
+  },
+  "prompt_sha256": "c7283f96e328dc3456c9bac9ce6543042195fec797294fe921e1f716663158bb",
+  "request_id": null,
+  "width": 1024,
+  "height": 1024,
+  "mime_type": "image/png",
+  "status": "complete"
+}

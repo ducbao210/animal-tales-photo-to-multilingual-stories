@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "image_id": "cat_1-5e9713b6559d",
+  "source_story_sha256": "c484818705968b7d821f4b46e7d5cd01e55fcbcc64d1b66ff4b35dae29238c2a",
+  "target_age": "5-7",
+  "translation_fingerprint": "bc7525dc280263da483b7136d95b6dd61d451572f55016443eb107903065a29b",
+  "locale": "fr-FR",
+  "pages": [
+    {
+      "page": 1,
+      "text": "Milo, un chat blanc avec un foulard bleu autour du cou, jouait sur le Sentier des fleurs. Son ami Pip, un lapin brun avec un ruban vert au poignet, courait à côté de lui dans le Jardin ensoleillé."
+    },
+    {
+      "page": 2,
+      "text": "Ils aimaient jouer ensemble avec leur jouet de jardin coloré. Le soleil était chaud et les pierres de pas étaient brillantes."
+    },
+    {
+      "page": 3,
+      "text": "Soudain, une rafale de vent emporta leur jouet. Milo leva les yeux et vit le jouet coincé sur une branche haute près du Grand Chêne, très loin."
+    },
+    {
+      "page": 4,
+      "text": "Milo remarque une trace de pétales de fleurs tombés qui part du Sentier des fleurs vers le Pont de l'étang. Pip saute devant pour regarder le Pont de l'étang et voit que le chemin continue tout droit jusqu'au Grand Chêne."
+    },
+    {
+      "page": 5,
+      "text": "Au Grand Chêne, Milo observe l'arbre. Milo crie : « Petites pattes, grandes idées ! » avant de tracer le chemin de pas dans la terre. Il planifie soigneusement une voie sûre sur les petites branches."
+    },
+    {
+      "page": 6,
+      "text": "Pip s'exclame : « Je bondis, j'observe et j'y vais ! » avant de sauter en sécurité le dernier espace pour attraper le jouet. Pip utilise ses bonds rapides et précis pour atteindre le jouet en toute sécurité."
+    },
+    {
+      "page": 7,
+      "text": "Pip redescend doucement avec le jouet. Milo sourit et applaudit avec ses pattes. Ils ont de nouveau leur jouet préféré !"
+    },
+    {
+      "page": 8,
+      "text": "Milo et Pip reviennent ensemble sur le sentier herbeux. Le chat blanc et le lapin brun célèbrent joyeusement avec un jeu amusant."
+    }
+  ],
+  "validation": {
+    "passed": true,
+    "issues": [],
+    "rounds": 0
+  }
+}

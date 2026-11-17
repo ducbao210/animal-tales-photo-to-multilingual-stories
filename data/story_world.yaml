@@ -1,0 +1,115 @@
+location:
+  id: sunny_garden
+  name: Sunny Garden
+  names:
+    en: Sunny Garden
+    fr-FR: Jardin ensoleillé
+    es-ES: Jardín Soleado
+    vi-VN: Vườn Nắng
+  areas:
+    - id: flower_path
+      name: Flower Path
+      names:
+        en: Flower Path
+        fr-FR: Sentier des fleurs
+        es-ES: Camino de las flores
+        vi-VN: Lối Hoa
+      description: A bright path where garden flowers grow beside the stepping stones.
+    - id: pond_bridge
+      name: Pond Bridge
+      names:
+        en: Pond Bridge
+        fr-FR: Pont de l'étang
+        es-ES: Puente del estanque
+        vi-VN: Cầu Ao
+      description: A small wooden bridge crosses a calm pond.
+    - id: tall_oak
+      name: Tall Oak
+      names:
+        en: Tall Oak
+        fr-FR: Grand Chêne
+        es-ES: Roble Alto
+        vi-VN: Cây Sồi Cao
+      description: A sturdy oak tree shades the garden and has low branches.
+    - id: picnic_meadow
+      name: Picnic Meadow
+      names:
+        en: Picnic Meadow
+        fr-FR: Prairie du pique-nique
+        es-ES: Pradera del picnic
+        vi-VN: Đồng Cỏ Dã Ngoại
+      description: A soft grassy clearing with a picnic blanket and open space.
+main:
+  cat:
+    name: Milo
+    gender: masculine
+    pronouns_en: he/him
+    slogan_en: Small paws, big plans!
+    skill: notices small patterns and makes a careful plan
+    visual_detail: a small blue neckerchief with one yellow star
+    names: {en: Milo, fr-FR: Milo, es-ES: Milo, vi-VN: Milo}
+    slogans:
+      en: Small paws, big plans!
+      fr-FR: Petites pattes, grandes idées !
+      es-ES: ¡Patitas listas, grandes ideas!
+      vi-VN: Chân nhỏ, ý chí lớn!
+  dog:
+    name: Luna
+    gender: feminine
+    pronouns_en: she/her
+    slogan_en: Together, we find a way!
+    skill: brings everyone together and shares helpful tasks
+    visual_detail: a red collar with a round brass tag
+    names: {en: Luna, fr-FR: Luna, es-ES: Luna, vi-VN: Luna}
+    slogans:
+      en: Together, we find a way!
+      fr-FR: Ensemble, on trouve une solution !
+      es-ES: ¡Juntas hallamos la solución!
+      vi-VN: Cùng nhau, ta sẽ tìm ra cách!
+  hare:
+    name: Pip
+    gender: masculine
+    pronouns_en: he/him
+    slogan_en: Leap, look, and go!
+    skill: makes quick, accurate hops across safe gaps
+    visual_detail: one soft green wrist ribbon
+    names: {en: Pip, fr-FR: Pip, es-ES: Pip, vi-VN: Pip}
+    slogans:
+      en: Leap, look, and go!
+      fr-FR: Je bondis, j'observe et j'y vais !
+      es-ES: ¡Salto, miro y voy!
+      vi-VN: Nhảy lên, nhìn kỹ, tiến bước!
+  owl:
+    name: Tiko
+    gender: masculine
+    pronouns_en: he/him
+    slogan_en: Keen eyes, steady wings!
+    skill: spots distant details and flies safely between perches
+    visual_detail: a small teal neckerchief with a silver feather pin
+    names: {en: Tiko, fr-FR: Tiko, es-ES: Tiko, vi-VN: Tiko}
+    slogans:
+      en: Keen eyes, steady wings!
+      fr-FR: Œil vif, ailes sûres !
+      es-ES: ¡Vista aguda, alas firmes!
+      vi-VN: Mắt tinh, cánh vững vàng!
+  squirrel:
+    name: Nala
+    gender: feminine
+    pronouns_en: she/her
+    slogan_en: I remember the way!
+    skill: remembers routes and finds stored supplies
+    visual_detail: a teal satchel with a stitched acorn
+    names: {en: Nala, fr-FR: Nala, es-ES: Nala, vi-VN: Nala}
+    slogans:
+      en: I remember the way!
+      fr-FR: Je connais le chemin !
+      es-ES: ¡Recuerdo el camino!
+      vi-VN: Mình nhớ đường đi!
+punctuation:
+  fr-FR: "Put a narrow non-breaking space before ! ? : ; when typography supports it; keep punctuation readable in plain text."
+  es-ES: Use opening ¡ and ¿ with their closing marks where the sentence calls for them.
+  vi-VN: Use Vietnamese sentence punctuation and keep each character's pronouns consistent.
+pronouns:
+  fr-FR: {masculine: il/lui, feminine: elle/lui}
+  es-ES: {masculine: él, feminine: ella}
+  vi-VN: {masculine: bạn ấy, feminine: bạn ấy}

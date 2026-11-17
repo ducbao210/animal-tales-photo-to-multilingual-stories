@@ -1,0 +1,142 @@
+{
+  "schema_version": "1.0",
+  "image_id": "cat_1-5e9713b6559d",
+  "source_story_sha256": "c484818705968b7d821f4b46e7d5cd01e55fcbcc64d1b66ff4b35dae29238c2a",
+  "translations": {
+    "fr-FR": {
+      "locale": "fr-FR",
+      "pages": [
+        {
+          "page": 1,
+          "text": "Milo, un chat blanc avec un foulard bleu autour du cou, jouait sur le Sentier des fleurs. Son ami Pip, un lapin brun avec un ruban vert au poignet, courait à côté de lui dans le Jardin ensoleillé."
+        },
+        {
+          "page": 2,
+          "text": "Ils aimaient jouer ensemble avec leur jouet de jardin coloré. Le soleil était chaud et les pierres de pas étaient brillantes."
+        },
+        {
+          "page": 3,
+          "text": "Soudain, une rafale de vent emporta leur jouet. Milo leva les yeux et vit le jouet coincé sur une branche haute près du Grand Chêne, très loin."
+        },
+        {
+          "page": 4,
+          "text": "Milo remarque une trace de pétales de fleurs tombés qui part du Sentier des fleurs vers le Pont de l'étang. Pip saute devant pour regarder le Pont de l'étang et voit que le chemin continue tout droit jusqu'au Grand Chêne."
+        },
+        {
+          "page": 5,
+          "text": "Au Grand Chêne, Milo observe l'arbre. Milo crie : « Petites pattes, grandes idées ! » avant de tracer le chemin de pas dans la terre. Il planifie soigneusement une voie sûre sur les petites branches."
+        },
+        {
+          "page": 6,
+          "text": "Pip s'exclame : « Je bondis, j'observe et j'y vais ! » avant de sauter en sécurité le dernier espace pour attraper le jouet. Pip utilise ses bonds rapides et précis pour atteindre le jouet en toute sécurité."
+        },
+        {
+          "page": 7,
+          "text": "Pip redescend doucement avec le jouet. Milo sourit et applaudit avec ses pattes. Ils ont de nouveau leur jouet préféré !"
+        },
+        {
+          "page": 8,
+          "text": "Milo et Pip reviennent ensemble sur le sentier herbeux. Le chat blanc et le lapin brun célèbrent joyeusement avec un jeu amusant."
+        }
+      ],
+      "validation": {
+        "passed": true,
+        "issues": [],
+        "rounds": 0
+      }
+    },
+    "es-ES": {
+      "locale": "es-ES",
+      "pages": [
+        {
+          "page": 1,
+          "text": "Milo, un gato blanco con un pañuelo azul al cuello, jugaba en el Camino de las flores. Su amigo Pip, una liebre marrón con una cinta verde en la muñeca, corría a su lado en el Jardín Soleado."
+        },
+        {
+          "page": 2,
+          "text": "Les encantaba jugar juntos con su juguete colorido del jardín. El sol estaba cálido y las piedras de paso brillaban."
+        },
+        {
+          "page": 3,
+          "text": "De repente, una ráfaga de viento llevó su juguete lejos. Milo miró arriba y vio que el juguete estaba atrapado en una rama alta cerca del Roble Alto, muy fuera de su alcance."
+        },
+        {
+          "page": 4,
+          "text": "Milo ve un rastro de pétalos de flores caídos que va del Camino de las flores al Puente del estanque. Pip salta adelante para mirar el Puente del estanque y ve que el camino sigue recto hasta el Roble Alto."
+        },
+        {
+          "page": 5,
+          "text": "En el Roble Alto, Milo estudió el árbol. Milo grita «¡Patitas listas, grandes ideas!» antes de dibujar el camino de pasos en la tierra. Con cuidado planeó una ruta segura por las ramas bajas."
+        },
+        {
+          "page": 6,
+          "text": "Pip anima «¡Salto, miro y voy!» antes de saltar con seguridad el último hueco para agarrar el juguete. Pip usó sus saltos rápidos y precisos para alcanzar el juguete sin peligro."
+        },
+        {
+          "page": 7,
+          "text": "Pip bajó con cuidado con el juguete. Milo sonrió y aplaudió con sus patitas. ¡Tenían su juguete favorito de nuevo!"
+        },
+        {
+          "page": 8,
+          "text": "Milo y Pip caminaron de regreso al camino de hierba juntos. El gato blanco y la liebre marrón celebraron felizmente con un juego divertido."
+        }
+      ],
+      "validation": {
+        "passed": true,
+        "issues": [],
+        "rounds": 0
+      }
+    },
+    "vi-VN": {
+      "locale": "vi-VN",
+      "pages": [
+        {
+          "page": 1,
+          "text": "Milo, một chú mèo trắng đeo khăn cổ xanh, đang chơi ở Lối Hoa. Bạn ấy Pip, một chú thỏ nâu đeo ruy băng xanh trên cổ tay, chạy bên cạnh Milo trong Vườn Nắng."
+        },
+        {
+          "page": 2,
+          "text": "Hai bạn thích chơi cùng đồ chơi vườn đầy màu sắc. Mặt trời ấm áp, và những tảng đá bước chân sáng bóng."
+        },
+        {
+          "page": 3,
+          "text": "Bỗng một cơn gió thổi đồ chơi của chúng bay đi. Milo ngước lên và thấy đồ chơi mắc trên cành cao gần Cây Sồi Cao, quá xa không chạm tới."
+        },
+        {
+          "page": 4,
+          "text": "Milo thấy một vệt cánh hoa rơi rải từ Lối Hoa về phía Cầu Ao. Pip nhảy lên phía trước để kiểm tra Cầu Ao và thấy con đường tiếp tục thẳng tới Cây Sồi Cao."
+        },
+        {
+          "page": 5,
+          "text": "Ở Cây Sồi Cao, Milo quan sát cây. Milo hô “Chân nhỏ, ý chí lớn!” rồi vẽ đường bước trên đất. Bạn ấy cẩn thận lên kế hoạch đường lên các cành thấp một cách an toàn."
+        },
+        {
+          "page": 6,
+          "text": "Pip reo “Nhảy lên, nhìn kỹ, tiến bước!” rồi nhảy an toàn qua khoảng trống cuối cùng để lấy đồ chơi. Pip dùng những cú nhảy nhanh, chính xác để lấy đồ chơi một cách an toàn."
+        },
+        {
+          "page": 7,
+          "text": "Pip nhảy xuống cẩn thận mang đồ chơi. Milo mỉm cười và vỗ tay. Hai bạn lại có lại đồ chơi yêu thích!"
+        },
+        {
+          "page": 8,
+          "text": "Milo và Pip cùng nhau đi về lại Lối Hoa. Chú mèo trắng và chú thỏ nâu vui vẻ ăn mừng bằng một trò chơi thú vị."
+        }
+      ],
+      "validation": {
+        "passed": true,
+        "issues": [],
+        "rounds": 0
+      }
+    }
+  },
+  "validation": {
+    "passed": true,
+    "locales": [
+      "fr-FR",
+      "es-ES",
+      "vi-VN"
+    ],
+    "failed_locales": {}
+  }
+}

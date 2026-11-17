@@ -1,0 +1,26 @@
+{
+  "problem": "A windy day blew Pip's favourite picnic blanket across Sunny Garden, and it got caught in a high tree branch.",
+  "area_sequence": [
+    "picnic_meadow",
+    "flower_path",
+    "pond_bridge",
+    "tall_oak"
+  ],
+  "move_reasons": [
+    "Luna and Pip see the wind blow the blanket toward Flower Path and follow it.",
+    "The wind blows the blanket past Flower Path and across the water at Pond Bridge.",
+    "The blanket lands high in the branches of Tall Oak, so they move to the tree to get it."
+  ],
+  "main_skill_solution": "Luna brings everyone together and assigns clear roles so Pip can jump safely while Luna catches the dropped blanket.",
+  "support_skill_solution": "Pip uses his quick, accurate hops across safe gaps between branches to reach the blanket and push it down.",
+  "slogan_moments": [
+    "Pip shouts 'Leap, look, and go!' before hopping across the low branches of Tall Oak.",
+    "Luna shouts 'Together, we find a way!' as she organizes the rescue and catches the blanket."
+  ],
+  "four_parts": {
+    "beginning": "Luna the black dog and Pip the brown hare are sitting in Picnic Meadow, getting ready for a fun picnic.",
+    "problem": "A strong gust of wind lifts their picnic blanket and carries it far away across Sunny Garden.",
+    "solution": "They track the blanket to Tall Oak, where Pip hops up the safe branches to reach it, and Luna stands below to catch it safely.",
+    "happy_ending": "With the blanket back, Luna and Pip head back to Picnic Meadow and enjoy their picnic together."
+  }
+}
